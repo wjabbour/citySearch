@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "types": ["node", "jest"],
+      "target": "ES2019",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "alwaysStrict": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictPropertyInitialization": true,
+      "strictBindCallApply": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "declaration": true
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  }
+  
